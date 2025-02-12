@@ -111,8 +111,8 @@ def process_folder(main_directory, subfolder, output_path):
 
 def main():
     """Main function to prompt user and process vegetation indices."""
-    main_directory = "/home/analeite/Metashape/Vegetation_Index"
-    output_path = "/home/analeite/Metashape/Vegetation_Index/Results"
+    main_directory = "Put_Your_Main_Directory"
+    output_path = "Put_Your_Output_Path"
     
     subfolders = list_subfolders(main_directory)
     
